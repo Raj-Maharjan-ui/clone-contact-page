@@ -30,13 +30,19 @@
         </div>
         <!-- for smaller screens  -->
         <div class="mobile_navbar flex justify-center">
-            <ul
-                class="flex justify-between bg-zinc-100 h-24 w-[80%] mt-[50px] text-lg text-gray-600 rounded-full  items-center shadow-2xl ">
+            
+            <ul class="flex justify-between bg-zinc-100 h-24 w-[80%] mt-[50px] text-lg text-gray-600 rounded-full  items-center shadow-2xl ">
                 <li class="text-gray-600 flex items-center"><img
                         src="https://www.mindrisers.com.np/_next/static/media/mindrisers.1fedbf2d.png" alt="logo"
                         class="w-15 h-auto">mindrisers</li>
-                <li></li>
+                <li><button
+                        class="bg-green-600 text-white rounded-full w-35 h-12 hover:bg-green-700 cursor-pointer">Send
+                        Enquiry</button></li>            
         </div>
+
+
+
+        
 
         <!-- hero  -->
         <div class="hero flex flex-col items-center m-30 gap-[20px]">
@@ -204,6 +210,19 @@
             }
             iframe{
                 width:auto
+            }
+            .mobile_navbar li{
+                font-size: medium;
+                
+            }
+            .mobile_navbar button{
+                height: 40px;
+                width:auto;
+                margin-right: 5px;
+            }
+            .mobile_navbar img{
+                height: 40px;
+                width: auto;
             }
 
         }
